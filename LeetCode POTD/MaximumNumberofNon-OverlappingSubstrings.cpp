@@ -3,6 +3,8 @@
 #include<iostream>
 using namespace std;
 
+// 1520. Maximum Number of Non-Overlapping Substrings
+
 class Solution {
 public:
     vector<string> maxNumOfSubstrings(string s) {
