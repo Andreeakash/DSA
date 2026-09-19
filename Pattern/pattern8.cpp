@@ -1,3 +1,4 @@
+#include<bits/stdc++.h>
 #include<iostream>
 using namespace std;
 
@@ -7,23 +8,33 @@ int main(){
     cout<<"Enter the Number of N:";
     cin>>n;
 
-    //  for spacing 
+    // Rows printing
     for(int i=n-1;i>=0;i--){
-        //  for spacing 
-        for(int j=0;j<i;j++){
+
+        // for spacing
+        for(int j=n-1;j>i;j--){
             cout<<" ";
+
         }
         // for printing something
-        for(int j=0;j<n-i;j++){
+        for(int j=0;j<=i;j++){
             cout<<"*";
         }
-        // for printing something
-        for(int j=0;j<n-1-i;j++){
+
+        // for again printing somethig
+        for(int j= 0 ; j < i ;j++){
             cout<<"*";
         }
         cout<<endl;
-        
+
+
+
+
+
+
+
     }
+
 
 
 
